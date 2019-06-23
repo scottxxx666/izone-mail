@@ -9,7 +9,7 @@
 <script>
     const state = Math.random().toString(36).substr(2, 8);
     localStorage.setItem("state", state);
-    const redirectUri = 'http://izone-mail.s3-website-ap-northeast-1.amazonaws.com';
+    const redirectUri = 'https://scottxxx666.github.io/izone-mail/callback.html';
     const clientId = 'dxJFlxIJZCySRr8BGdYv9B';
     window.location.href = `https://notify-bot.line.me/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=code&scope=notify&state=${state}`;
 </script>

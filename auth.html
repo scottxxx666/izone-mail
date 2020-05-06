@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iz*one 郵差</title>
+</head>
+<body>
+
+<script>
+    const state = Math.random().toString(36).substr(2, 8);
+    localStorage.setItem("state", state);
+    const redirectUri = 'https://scottxxx666.github.io/izone-mail/callback.html';
+    const clientId = 'dxJFlxIJZCySRr8BGdYv9B';
+    window.location.href = `https://notify-bot.line.me/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=code&scope=notify&state=${state}`;
+</script>
+</body>
+</html>

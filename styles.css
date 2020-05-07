@@ -45,6 +45,10 @@
     padding-bottom: 80px;
 }
 
+#line-register-img {
+    width: 400px;
+}
+
 .section-content, .other-section {
     padding: 20px;
 }
@@ -58,4 +62,15 @@
 
 .uninstall-title {
     color: gainsboro;
+}
+
+#line-uninstall-img {
+    width: 600px;
+}
+
+.text-content {
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 15px;
+    text-align: left;
 }

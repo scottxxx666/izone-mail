@@ -12,8 +12,12 @@
     background-color: white;
 }
 
+.mdl-button {
+    font-size: 18px;
+}
+
 .header .mdl-navigation__link {
-    font-size: 16px;
+    font-size: 18px;
     color: #ff4081;
 }
 

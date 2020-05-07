@@ -1,0 +1,61 @@
+#view-source {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    z-index: 900;
+}
+
+.header {
+    background-color: white;
+}
+
+.header .mdl-navigation__link {
+    font-size: 16px;
+    color: #ff4081;
+}
+
+.slogan {
+    font-size: 60px;
+    padding-top: 160px;
+    color: #950000;
+}
+
+.sub-slogan {
+    font-size: 21px;
+    padding-top: 34px;
+}
+
+.main-section {
+    background-color: #f3f3f3;
+}
+
+.main-image-container {
+    padding: 20px;
+}
+
+.main-image {
+    width: 300px;
+}
+
+.register-section {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.section-content, .other-section {
+    padding: 20px;
+}
+
+.uninstall-section {
+    color: #f3f3f3;
+    background-color: #37474f;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.uninstall-title {
+    color: gainsboro;
+}
